@@ -3,6 +3,9 @@
 class Book:
     def __init__(self, title, page_count):
         self.title = title 
-        self.page_count = int(page_count) 
-    
-        
+        self.page_count = page_count 
+
+
+harry_potter = Book("Harry Potter", 100)
+
+harry_potter
